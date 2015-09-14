@@ -1,5 +1,6 @@
 import React from "react";
 import {Navbar, NavDropdown, MenuItem, Nav, NavItem,Button} from 'react-bootstrap';
+import {Link} from 'react-router';
 
 export default React.createClass({
 
@@ -17,8 +18,8 @@ export default React.createClass({
     return (
       <Navbar brand={Brand} inverse toggleNavKey={0}>
           <Nav right eventKey={0}> {/* This is the eventKey referenced */}
-            <NavItem eventKey={1} href="#">Link</NavItem>
-            <NavItem eventKey={2} href="#">Link</NavItem>
+            <NavItem eventKey={1} href="/link1"><Link to="/link1" >Link1</Link></NavItem>
+            <NavItem eventKey={2} href="/link2"><Link to="/link2" >Link2</Link></NavItem>
             <NavDropdown eventKey={3} title="Dropdown" id="collapsible-navbar-dropdown">
               <MenuItem eventKey="1">Action</MenuItem>
               <MenuItem eventKey="2">Another action</MenuItem>

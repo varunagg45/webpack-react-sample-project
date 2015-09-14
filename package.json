@@ -27,6 +27,8 @@
     "webpack-dev-server": "^1.10.1"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.25.2",
+    "react-router": "1.0.0-rc1"
   }
 }
