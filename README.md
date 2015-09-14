@@ -2,6 +2,8 @@
 
 Short project that I created. Inspired from the blog posts https://robots.thoughtbot.com/setting-up-webpack-for-react-and-hot-module-replacement by Blake Williams and  http://www.jonathan-petitcolas.com/2015/05/15/howto-setup-webpack-on-es6-react-application-with-sass.html from Jonathan Petitcolas. I created this project only for learning purpose, it's a very basic project for beginners.
 
+Update: Added support for react router
+
 ## Setup
 
 * At the root of the project `npm install`, `npm start`
